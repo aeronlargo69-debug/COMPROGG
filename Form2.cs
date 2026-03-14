@@ -163,7 +163,7 @@ namespace calcu
                 return;
             }
 
-            if (Class1.users[username] != password) 
+            if (Class1.users[username] != password)
             {
                 MessageBox.Show("Incorrect Password");
                 return;
@@ -175,6 +175,19 @@ namespace calcu
         private void textBox9_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            Form3 form3 = new Form3();
+            form3.Show();
+
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            Form4 f4 = new Form4();
+            f4.Show();
         }
     }
 }

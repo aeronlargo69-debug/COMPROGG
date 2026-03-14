@@ -55,6 +55,8 @@
             textBox9 = new TextBox();
             button4 = new Button();
             checkBox1 = new CheckBox();
+            button5 = new Button();
+            button6 = new Button();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
@@ -183,7 +185,7 @@
             // 
             // button2
             // 
-            button2.Location = new Point(789, 323);
+            button2.Location = new Point(976, 610);
             button2.Name = "button2";
             button2.Size = new Size(75, 23);
             button2.TabIndex = 15;
@@ -292,12 +294,34 @@
             checkBox1.Text = "Show Password";
             checkBox1.UseVisualStyleBackColor = true;
             // 
+            // button5
+            // 
+            button5.Location = new Point(976, 639);
+            button5.Name = "button5";
+            button5.Size = new Size(75, 23);
+            button5.TabIndex = 27;
+            button5.Text = "form 3 calcu";
+            button5.UseVisualStyleBackColor = true;
+            button5.Click += button5_Click;
+            // 
+            // button6
+            // 
+            button6.Location = new Point(28, 235);
+            button6.Name = "button6";
+            button6.Size = new Size(100, 23);
+            button6.TabIndex = 28;
+            button6.Text = "CALCULATOR";
+            button6.UseVisualStyleBackColor = true;
+            button6.Click += button6_Click;
+            // 
             // Form2
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ActiveCaption;
             ClientSize = new Size(1294, 674);
+            Controls.Add(button6);
+            Controls.Add(button5);
             Controls.Add(checkBox1);
             Controls.Add(button4);
             Controls.Add(textBox9);
@@ -360,5 +384,7 @@
         private TextBox textBox9;
         private Button button4;
         private CheckBox checkBox1;
+        private Button button5;
+        private Button button6;
     }
 }
